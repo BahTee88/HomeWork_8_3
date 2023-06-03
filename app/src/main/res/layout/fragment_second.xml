@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SecondFragment">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        >
+
+        <TextView
+            android:id="@+id/doYouHaveCDL"
+            android:layout_width="308dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="36dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/brown"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/doyouhaveCDL"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+        android:id="@+id/addYourCDL"
+        android:layout_width="308dp"
+        android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:background="@color/gray"
+        android:text="@string/add_you_cdl_number"
+            android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/doYouHaveCDL" />
+
+    <TextView
+        android:id="@+id/militaryID"
+        android:layout_width="308dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/military_id"
+        android:background="@color/brown"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@id/addYourCDL"
+        tools:layout_editor_absoluteX="51dp" />
+
+        <EditText
+            android:id="@+id/addYourMilitaryID"
+            android:layout_width="308dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/gray"
+            android:gravity="center"
+            android:text="@string/add_military_id"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+        android:layout_width="308dp"
+        android:layout_height="56dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="351dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+            android:layout_marginBottom="15dp"
+        android:background="@color/brown"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:text="@string/passport_id"/>
+
+    <EditText
+        android:id="@+id/addYourPassportID"
+        android:layout_width="308dp"
+        android:layout_height="56dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="427dp"
+        android:text="@string/add_passport_id"
+        android:textSize="25sp"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:background="@color/gray"/>
+
+        <Button
+            android:id="@+id/buttonTwo"
+            android:layout_width="166dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:text="@string/next"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/addYourPassportID" />
+
+    </LinearLayout>
+
+</FrameLayout>

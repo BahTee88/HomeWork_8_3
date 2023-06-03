@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ClassWork_01_06_2023</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_your_name">Add your name</string>
+    <string name="add_your_surname">add_your_surname</string>
+    <string name="next">next</string>
+    <string name="add_your_age">add_your_age</string>
+    <string name="add_your_driver_licence">Add your driver licence?</string>
+    <string name="do_you_have_cdl">Do you have CDL</string>
+    <string name="add_your_cdl_number">Add your CDL number</string>
+    <string name="doyouhaveCDL">Do you have CDL?</string>
+    <string name="add_you_cdl_number">Add you CDL number</string>
+    <string name="military_id">Military ID?</string>
+    <string name="add_military_id">Add military ID</string>
+    <string name="add_passport_id">Add passport ID</string>
+    <string name="passport_id">Passport ID?</string>
+    <string name="ne">Next</string>
+    <string name="sorry_you_re_not_allowed_to_continue">Sorry! You\'re not allowed to continue</string>
+    <string name="successfully_authorized">Successfully authorized!</string>
+    <string name="oops_you_re_not_allowed_to_continue">Oops! You\'re not allowed to continue</string>
+    <string name="you_re_successfully_authorized">You\'re successfully authorized!</string>
+</resources>

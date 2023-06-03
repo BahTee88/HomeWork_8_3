@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextAge" type="id" />
+    <item name="editTextName" type="id" />
+    <item name="editTextLastName" type="id" />
+    <item name="buttonNext" type="id" />
+    <item name="action_firstFragment_to_secondFragment" type="id" />
+    <item name="firstFragment" type="id" />
+</resources>

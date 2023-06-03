@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center_horizontal"
+android:paddingTop="100dp">
+
+
+
+    <EditText
+        android:id="@+id/addYourSurname"
+        android:layout_width="308dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:background="@color/gray"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:hint="@string/add_your_surname"
+        android:textColorHint="@color/black"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/addYourAge"
+        android:layout_width="308dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:background="@color/gray"
+        android:hint="@string/add_your_age"
+        android:textColorHint="@color/black"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/addYourName"
+        android:layout_width="308dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:background="@color/gray"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:hint="@string/add_your_name"
+        android:textColorHint="@color/black"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/buttonFirst"
+        android:layout_width="166dp"
+        android:layout_height="52dp"
+        android:text="@string/next"
+        android:textSize="25sp" />
+
+</LinearLayout>
+
+</FrameLayout>
